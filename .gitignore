@@ -1,0 +1,17 @@
+.tools/
+.signing/
+build/
+local.properties
+*.iml
+.idea/
+.gradle/
+tests/build/
+tests/audio-build/
+tests/artifacts/
+*.class
+dist/*
+!dist/Installation-und-Bedienung.txt
+*.p12
+*.jks
+*.keystore
+keystore-password.txt

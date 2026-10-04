@@ -1,0 +1,87 @@
+UB BPM Counter 1.2.4
+
+INSTALLIEREN
+UB-BPM-Counter-v1.2.4.apk als Datei über Telegram an dein Telefon schicken,
+dort öffnen und installieren. Die Version aktualisiert die bestehende App;
+du musst die vorherige Version nicht deinstallieren.
+
+BPM PER MIKROFON ERKENNEN
+1. Musik über einen Lautsprecher abspielen.
+2. In UB BPM Counter auf „BPM ERKENNEN · MIKROFON“ tippen.
+3. Beim ersten Mal den Mikrofonzugriff erlauben.
+4. Etwa 8–20 Sekunden zuhören lassen. Die kleine Pegelanzeige zeigt,
+   ob Schall am Mikrofon ankommt; die Stabilitätsanzeige bewertet den Rhythmus.
+5. „ERKENNUNG STOPPEN“ hält den zuletzt erkannten BPM-Wert fest.
+
+BEAT-LED IM AUTOMATIKMODUS
+Die kleine orange LED oben rechts auf der TAP-Fläche reagiert bereits
+während der Erkennung auf frische Schlagspitzen im Mikrofonsignal. Sie
+wartet nicht auf den ersten BPM-Wert. Sobald ein Tempo erkannt ist,
+blinkt sie im Takt der angezeigten BPM und wird an den aktuellen
+Audio-Attacks ausgerichtet. Je nach Musik und Mikrofonverarbeitung ist
+diese Ausrichtung näherungsweise.
+Die TEMPO-Taste ändert auch die Blinkrate: normal, doppelt oder halb.
+Ohne erkanntes Tempo gibt es nur einzelne Blitze bei Audio-Attacks.
+Nach Stoppen bleibt die Automatik-LED aus. Beim manuellen Tippen blitzt
+sie wie bisher pro Tap auf.
+
+Bei „ZU LEISE“ das Handy näher zum Lautsprecher halten.
+Bei unklarem Beat kann „KEIN TAKT“ erscheinen. Je nach Musik kann das
+erkannte Tempo halb oder doppelt so schnell gezählt werden. Mit „TEMPO“
+kannst du die Anzeige zwischen normalem, doppeltem und halbem Tempo umschalten.
+Die Erkennung hört die Umgebung über das Mikrofon; Musik, die nur im
+Kopfhörer läuft, ist darüber normalerweise nicht hörbar.
+
+WEITERHIN TIPPEN
+Die große TAP-Fläche zählt beim Aufsetzen des Fingers, unabhängig von der
+gemeldeten Kontaktgröße und dem Druck. Auch überlappende Fingerkontakte und
+Taps mit weniger als 140 ms Abstand zählen. Abstände unter 160 ms zählen als
+Berührung, beeinflussen aber nicht die BPM-Berechnung. Verschieben oder Rollen
+eines aufliegenden Fingers erzeugt keinen zusätzlichen Tap. Die Ränder sind
+etwas toleranter, damit knappe Treffer leichter erkannt werden.
+
+Tippen beendet eine laufende
+Mikrofon-Erkennung und beginnt eine neue manuelle Messung. RESET löscht
+die Messung. HAPTIK schaltet die Vibration beim Tippen um.
+
+DATEN UND AKKU
+Die Analyse läuft vollständig offline. Es werden keine Audioaufnahmen
+gespeichert oder übertragen. Beim Verlassen der App oder Drehen des
+Displays wird das Mikrofon gestoppt. Starte die Erkennung danach bei Bedarf
+erneut über die Taste. Während der Erkennung bleibt das Display eingeschaltet.
+
+NEU IN 1.2.4
+- Displaykasten im App-Icon um 22 Prozent verkleinert
+- Mehr silberner Rand für eine ausgewogene Darstellung auf dem Homescreen
+- Funktionen und App-Oberfläche unverändert
+
+SEIT 1.2.3
+- Neues Icon mit größerer orangefarbener BPM-Anzeige und Metallrahmen
+- Kein großes UB im Icon; nur dezenter BPM-Schriftzug
+- Funktionen und App-Oberfläche unverändert
+
+SEIT 1.2.2
+- App-Name und Schriftzug oben links: UB BPM Counter
+- Silbermetallic-App-Icon mit orangefarbener Siebensegment-BPM-Zahl
+- Bestehende Funktionen bleiben unverändert
+
+SEIT 1.2.1
+- LED reagiert auf frische Audio-Attacks während der Erkennung
+- LED wartet nicht mehr auf die mehrsekündige BPM-Auswertung
+- BPM-Berechnung, Tap-Verhalten und Oberfläche bleiben unverändert
+
+SEIT 1.2.0
+- Beat-LED im Automatikmodus, passend zur angezeigten BPM
+- Ausrichtung am Audio-Beat und Unterstützung für Halb-/Doppeltempo
+- Automatische Pulse lösen keine Taps oder Vibrationen aus
+
+SEIT 1.1.1
+- Starre 140-ms-Tap-Sperre entfernt, schnelle Berührungen zählen sofort
+- Mehrere überlappende Finger werden getrennt verfolgt
+- TAP-Trefffläche leicht über den sichtbaren Rand erweitert
+- Keine Mindestanforderung an Kontaktdruck oder Fingerfläche
+
+SEIT 1.1.0
+- Mikrofon-Erkennung mit Pegel- und Stabilitätsanzeige
+- Vier dekorative Schrauben an den Ecken entfernt
+- Weiterhin Hoch- und Querformat, Android 6 oder neuer
